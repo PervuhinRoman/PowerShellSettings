@@ -5,52 +5,6 @@
         {
             "command": 
             {
-                "action": "moveFocus",
-                "direction": "right"
-            },
-            "keys": "alt+right"
-        },
-        {
-            "command": 
-            {
-                "action": "newWindow"
-            },
-            "keys": "ctrl+shift+n"
-        },
-        {
-            "command": "closeWindow",
-            "keys": "alt+f4"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "left"
-            },
-            "keys": "alt+left"
-        },
-        {
-            "command": "toggleFullscreen",
-            "keys": "alt+enter"
-        },
-        {
-            "command": "toggleFullscreen",
-            "keys": "f11"
-        },
-        {
-            "command": "openNewTabDropdown",
-            "keys": "ctrl+shift+space"
-        },
-        {
-            "command": 
-            {
-                "action": "scrollUp"
-            },
-            "keys": "ctrl+shift+up"
-        },
-        {
-            "command": 
-            {
                 "action": "openSettings",
                 "target": "defaultsFile"
             },
@@ -72,10 +26,50 @@
             "keys": "ctrl+alt+1"
         },
         {
-            "command": "toggleFocusMode"
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+shift+space"
         },
         {
-            "command": "openTabColorPicker"
+            "command": 
+            {
+                "action": "scrollUp"
+            },
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "alt+enter"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "f11"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "left"
+            },
+            "keys": "alt+left"
+        },
+        {
+            "command": 
+            {
+                "action": "newWindow"
+            },
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "right"
+            },
+            "keys": "alt+right"
+        },
+        {
+            "command": "closeWindow",
+            "keys": "alt+f4"
         },
         {
             "command": 
@@ -84,6 +78,12 @@
                 "index": 4
             },
             "keys": "ctrl+shift+5"
+        },
+        {
+            "command": "toggleFocusMode"
+        },
+        {
+            "command": "openTabColorPicker"
         },
         {
             "command": "toggleAlwaysOnTop"
@@ -99,16 +99,16 @@
         {
             "command": 
             {
-                "action": "openSettings",
-                "target": "settingsFile"
-            },
-            "keys": "ctrl+shift+comma"
+                "action": "renameTab"
+            }
         },
         {
             "command": 
             {
-                "action": "renameTab"
-            }
+                "action": "openSettings",
+                "target": "settingsFile"
+            },
+            "keys": "ctrl+shift+comma"
         },
         {
             "command": "find",
@@ -124,17 +124,17 @@
         {
             "command": 
             {
-                "action": "findMatch",
-                "direction": "next"
-            }
-        },
-        {
-            "command": 
-            {
                 "action": "resizePane",
                 "direction": "right"
             },
             "keys": "alt+shift+right"
+        },
+        {
+            "command": 
+            {
+                "action": "findMatch",
+                "direction": "next"
+            }
         },
         {
             "command": 
@@ -144,15 +144,15 @@
             }
         },
         {
-            "command": "scrollUpPage",
-            "keys": "ctrl+shift+pgup"
-        },
-        {
             "command": 
             {
                 "action": "findMatch",
                 "direction": "prev"
             }
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "ctrl+shift+pgup"
         },
         {
             "command": 
@@ -163,15 +163,15 @@
             "keys": "ctrl+alt+6"
         },
         {
-            "command": "toggleShaderEffects"
-        },
-        {
             "command": 
             {
                 "action": "moveFocus",
                 "direction": "down"
             },
             "keys": "alt+down"
+        },
+        {
+            "command": "toggleShaderEffects"
         },
         {
             "command": 
@@ -200,22 +200,12 @@
             }
         },
         {
-            "command": "openWindowRenamer"
-        },
-        {
             "command": 
             {
                 "action": "resizePane",
                 "direction": "down"
             },
             "keys": "alt+shift+down"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "up"
-            }
         },
         {
             "command": 
@@ -228,16 +218,18 @@
         {
             "command": 
             {
-                "action": "closeTabsAfter"
+                "action": "swapPane",
+                "direction": "up"
             }
+        },
+        {
+            "command": "openWindowRenamer"
         },
         {
             "command": 
             {
-                "action": "switchToTab",
-                "index": 1
-            },
-            "keys": "ctrl+alt+2"
+                "action": "closeTabsAfter"
+            }
         },
         {
             "command": 
@@ -246,6 +238,14 @@
                 "index": 4
             },
             "keys": "ctrl+alt+5"
+        },
+        {
+            "command": 
+            {
+                "action": "switchToTab",
+                "index": 1
+            },
+            "keys": "ctrl+alt+2"
         },
         {
             "command": 
@@ -299,14 +299,6 @@
         {
             "command": 
             {
-                "action": "newTab",
-                "index": 2
-            },
-            "keys": "ctrl+shift+3"
-        },
-        {
-            "command": 
-            {
                 "action": "movePane",
                 "index": 3
             }
@@ -318,6 +310,14 @@
                 "index": 6
             },
             "keys": "ctrl+alt+7"
+        },
+        {
+            "command": 
+            {
+                "action": "newTab",
+                "index": 2
+            },
+            "keys": "ctrl+shift+3"
         },
         {
             "command": 
@@ -345,6 +345,14 @@
         {
             "command": 
             {
+                "action": "moveFocus",
+                "direction": "previous"
+            },
+            "keys": "ctrl+alt+left"
+        },
+        {
+            "command": 
+            {
                 "action": "movePane",
                 "index": 0
             }
@@ -364,14 +372,6 @@
                 "index": 7
             },
             "keys": "ctrl+shift+8"
-        },
-        {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "previous"
-            },
-            "keys": "ctrl+alt+left"
         },
         {
             "command": 
@@ -417,17 +417,17 @@
         {
             "command": 
             {
-                "action": "movePane",
-                "index": 2
-            }
-        },
-        {
-            "command": 
-            {
                 "action": "switchToTab",
                 "index": 2
             },
             "keys": "ctrl+alt+3"
+        },
+        {
+            "command": 
+            {
+                "action": "movePane",
+                "index": 2
+            }
         },
         {
             "command": 
@@ -455,17 +455,17 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "down"
-            }
-        },
-        {
-            "command": 
-            {
                 "action": "switchToTab",
                 "index": 7
             },
             "keys": "ctrl+alt+8"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "down"
+            }
         },
         {
             "command": 
@@ -480,11 +480,7 @@
             "keys": "ctrl+shift+w"
         },
         {
-            "command": 
-            {
-                "action": "moveFocus",
-                "direction": "first"
-            }
+            "command": "togglePaneZoom"
         },
         {
             "command": 
@@ -495,7 +491,11 @@
             "keys": "alt+shift+plus"
         },
         {
-            "command": "togglePaneZoom"
+            "command": 
+            {
+                "action": "moveFocus",
+                "direction": "first"
+            }
         },
         {
             "command": 
@@ -723,7 +723,7 @@
     "confirmCloseAllTabs": true,
     "copyFormatting": "all",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "disableAnimations": false,
     "focusFollowMouse": false,
     "initialCols": 130,
@@ -750,38 +750,40 @@
                 "backgroundImageOpacity": 0.29999999999999999,
                 "backgroundImageStretchMode": "uniformToFill",
                 "closeOnExit": "graceful",
-                "colorScheme": "Andromeda",
+                "colorScheme": "One Half Dark",
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "cursorShape": "bar",
                 "font": 
                 {
-                    "face": "MesloLGM NF",
+                    "face": "Hack NF",
                     "size": 10,
                     "weight": "normal"
                 },
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "historySize": 9001,
-                "icon": "C:\\Users\\Acer\\Pictures\\terminal.ico",
+                "icon": "C:\\Users\\Acer\\Pictures\\command.png",
                 "name": "Windows PowerShell",
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
-                "tabTitle": "PowerShell",
+                "tabTitle": "WindowsPowerShellTab",
                 "useAcrylic": true
             },
             {
-                "acrylicOpacity": 0.20000000000000001,
+                "acrylicOpacity": 0.5,
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
+                "backgroundImage": "C:\\Users\\Acer\\Pictures\\backgnd_for_terminal_1.png",
+                "backgroundImageOpacity": 0.29999999999999999,
                 "closeOnExit": "graceful",
-                "colorScheme": "One Half Dark",
+                "colorScheme": "Andromeda",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "bar",
                 "font": 
                 {
-                    "face": "Cascadia Mono",
-                    "size": 12,
+                    "face": "Hack NF",
+                    "size": 10,
                     "weight": "light"
                 },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
@@ -828,6 +830,23 @@
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "tabTitle": "PowerShell",
+                "useAcrylic": true
+            },
+            {
+                "acrylicOpacity": 0.29999999999999999,
+                "backgroundImage": "C:\\Users\\Acer\\Pictures\\backgnd_for_terminal_1.png",
+                "backgroundImageOpacity": 0.80000000000000004,
+                "colorScheme": "One Half Dark",
+                "font": 
+                {
+                    "face": "Hack NF",
+                    "size": 10
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore",
+                "tabTitle": "PowerShellTab",
                 "useAcrylic": true
             }
         ]
